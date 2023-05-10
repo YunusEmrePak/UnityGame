@@ -17,7 +17,7 @@ public class ScoreManager : MonoBehaviour
         // PlayerPrefs.SetInt("TotalDiamonds", 0);
     }
     void Start() {
-        totalDiamonds = PlayerPrefs.GetInt("TotalDiamonds", 1000);
+        totalDiamonds = PlayerPrefs.GetInt("TotalDiamonds", 0);
     }
 
     public void IncreaseScore()
